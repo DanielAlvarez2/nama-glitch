@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/21ef82ed30.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+    let picOpen = false;
+    function openPic(menuItem){
+        if (picOpen == false){
+            document.getElementById(menuItem).classList.remove('hidden');
+            // window.scrollTo(0,0);
+            picOpen = true;}
+    };
+    function closePic(menuItem){
+        document.getElementById(menuItem).classList.add('hidden');
+        picOpen = false;
+    };
+</script>
+
+<body>
+<div id="page">
+    <img id="logo" src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/nama.jpg?v=1682878810526" style="text-align:center;">
+    <ul id="nav" class="noprint">
+        <a href="index.html"><li>Starters</li></a>
+        <a href="mains.html"><li>Mains</li></a>
+        <a href="sushi.html"><li>Sushi</li></a>
+        <a href="desserts.html"><li>Desserts</li></a>
+    </ul>
+    <ul id="nav2" class="noprint">
+        <a href="#"><li id="current-page">Wine</li></a>
+        <a href="beer.html"><li>Beer</li></a>
+        <a href="cocktails.html"><li>Cocktails</li></a>
+        <a href="mocktails.html"><li>Zero Proof</li></a>
+    </ul>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<div id="sake" class="section">
+    <div class="left">Wines by the glass<br>Sake</div>
+    <div class="right">
+
+        <div class="item">
+            <b>Aman, Hakurakusei,</b><span class="price">24</span><br>
+            Junmai Ginjo, 'Kizashi'<br>
+            Miyagi, Japan NV<br>
+            SVM +2 medium dry
+        </div>
+
+        <div class="item">
+            <b>Aman, Hakurakusei,</b><span class="price">34</span><br>
+            Junmai Daiginjo, 'Kizashi'<br>
+            Miyagi, Japan NV<br>
+            SMV +5 driest
+        </div>
+
+        <div class="item">
+            <b>Zaku Miyabi No Tomo</b><span class="price">27</span><br>
+            Junmai Ginjo <span style="color:red">Daiginjo</span>, 'Amanemu'<br>
+            Mie, Japan NV<br>
+            SVM +1 least dry / "sweetest"
+        </div>
+
+        <div class="item">
+            <b>Kagatsuru Umeshu</b><span class="price">24</span><br>
+            Plum Sake<br>
+            Ishikawa, Japan NV<br>
+        </div>
+
+        <div class="item">
+            <b>Rihaku, 'Dreamy Clouds'</b><span class="price">27</span><br>
+            Tokubetsu Junmai Nigori<br>
+            Shimane, Japan NV<br>
+        </div>
+
+
+
+      
+    </div><!--right-->
+</div><!--sake-->
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+<div id="sparkling" class="section">
+    <div class="left">Wines by the glass<br>Sparkling & Champagne</div>
+    <div class="right">
+
+        <div class="item">
+            <b>Louis Roederer, 'Collection 245'</b>
+            <span class="price">35</span><br>
+            Champagne, France, NV
+        </div>
+
+        <div class="item">
+            <b>Marguet, Brut Nature, Grand Cru</b>
+            <span class="price">46</span><br>
+            'Shaman 20'<br>
+            Rosé Champagne, France, NV
+        </div>
+
+        <div class="item">
+            <b>Aman, Comte de Montaigne,</b>
+            <span class="price">65</span><br>
+            "Cuvée Spéciale", Brut<br>
+            Champagne, France, NV
+        </div>
+
+       
+
+      
+    </div><!--right-->
+</div><!--sparkling-->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+<div id="white" class="section">
+    <div class="left">Wines by the glass<br>White</div>
+    <div class="right">
+
+        <div class="item">
+          <b>Schäfer-Fröhlich,</b>
+          <span class="price">20</span>          
+          <br><b>Pinot Blanc(Weissburgunder) Estate Dry,</b><br>
+          Nahe, Germany 2021
+        </div>
+
+        <div class="item">
+            <b>Melville, Chardonnay</b>
+            <span class="price">30</span><br>
+            <b>Sta. Rita Hills</b><br> 
+            California 2022
+        </div>
+
+        <div class="item">
+            <b>Régis Minet, Sauvignon Blanc</b>
+            <span class="price">25</span><br>
+            <b>Pouilly-Fumé "Vielles Vignes"</b><br> 
+            Loire Valley, France 2023
+        </div>
+
+        <div class="item">
+            <b>François Chidaine</b>
+            <span class="price">32</span><br>    
+            <b>Montlouis 'Clos Breuil', Sec</b><br>  
+            Chenin Blanc<br>
+            Loire Valley, France, 2022
+        </div>
+
+    </div><!--right-->
+</div><!--white-->
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<div id="rose" class="section">
+    <div class="left">Wines by the glass<br>Rosé</div>
+    <div class="right">
+
+        <div class="item">
+            <b>Domaine<span style='color:red;'>s</span> Ott, BY.OTT</b>
+            <span class="price">24</span><br>
+            Grenache, Cinsault, Mourvèdre<br>
+            Côtes de Provence, France 2022
+        </div>
+
+
+       
+
+
+    </div><!--right-->
+</div><!--rose-->
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<div id="red" class="section">
+    <div class="left">Wines by the glass<br>Red</div>
+    <div class="right">
+
+      
+      
+        <div class="item">
+            <b>J.K. Carriere</b>
+            <span class="price">39</span><br>
+            <b>'Vespidae' Pinot Noir</b><br>
+            Willamette Valley, Oregon 2021
+        </div>
+
+      
+        <div class="item">
+            <b>Bernard Baudry</b>
+            <span class="price">25</span><br>
+            <b>Chinon, 'Les Grezeaux'</b><br>
+            Cabernet Franc<br>
+            Loire Valley, France 2022
+        </div>
+
+
+        <div class="item">
+            <b>Les Griffons de Pichon Baron</b><span class="price">43</span><br>
+            Cabernet Sauvignon, Merlot<br>
+            Pauillac, Bordeaux, France 2019
+      </div>
+    </div><!--right-->
+</div><!--red-->
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<div id="dessert" class="section">
+    <div class="left">Wines by the glass<br>Dessert & Fortified</div>
+    <div class="right">
+
+  
+        <div class="item">
+            <b><span style="color:red">Castelnau de</span> Suduiraut</b>
+            <span class="price">23</span><br>
+            Sauternes, Bordeaux 2019
+        </div>
+
+        <div class="item">
+            <b>Domaine de Rancy</b>
+            <span class="price">32</span><br>
+            <b>Rivesaltes, Ambré, Vin Doux Naturel</b><br>
+            Macabeu<br>
+            Roussillon, France 2000
+        </div>
+
+        <div class="item">
+            <b>Weingut Sattlerhof</b>
+            <span class="price">38</span><br>            
+            <b>Beerenauslese</b><br>
+            Sauvignon Blanc<br>  
+            Südsteiermark, Austria 2021
+        </div>
+
+        <div class="item">
+            <b>Quinta do Noval, Colheita 1976</b>
+            <span class="price">80</span><br>            
+            Old Tawny Port, Douro, Portugal
+        </div>
+
+
+    </div><!--right-->
+</div><!--dessert-->
+
+  
+  
+  
+  
+  
+  
+  
+  
+</div><!--page-->
+
+</body>
+</html>
