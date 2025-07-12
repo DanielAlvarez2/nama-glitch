@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/21ef82ed30.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+    let picOpen = false;
+    function openPic(menuItem){
+        if (picOpen == false){
+            document.getElementById(menuItem).classList.remove('hidden');
+            // window.scrollTo(0,0);
+            picOpen = true;}
+    };
+    function closePic(menuItem){
+        document.getElementById(menuItem).classList.add('hidden');
+        picOpen = false;
+    };
+</script>
+
+<body>
+<div id="page">
+    <img id="logo" src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/nama.jpg?v=1682878810526" style="text-align:center;">
+    <ul id="nav">
+        <a href="index.html"><li>Starters</li></a>
+        <a href="#"><li id="current-page">Mains</li></a>
+        <a href="sushi.html"><li>Sushi</li></a>
+        <a href="desserts.html"><li>Desserts</li></a>
+    </ul>
+    <ul id="nav2">
+        <a href="wine.html"><li>Wine</li></a>
+        <a href="beer.html"><li>Beer</li></a>
+        <a href="cocktails.html"><li>Cocktails</li></a>
+        <a href="mocktails.html"><li>Zero Proof</li></a>
+    </ul>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+<div id="fried" class="section">
+    <div class="left">Fried</div>
+    <div class="right">
+
+    
+        <div class="item" style="cursor:pointer;" onclick="openPic('yasai');">
+            <b>Yasai Tempura</b><span class="price">26</span><br>
+            8 Summer Vegetables<br>
+            Tempura Sauce/Grated Daikon<br>
+            Mojio Salt<br>
+        </div>
+
+        <div class="item" 
+             style="cursor:pointer;" 
+             onclick="openPic('moriawase');">
+            <b>Tempura Moriawase</b><span class="price">36</span><br>
+            2 Ebi / Shrimp,<br> 
+            2 Yukari Age / Shiso Leaf-Yellowtail-Garlic,<br> 
+            5 Summer Vegetables<br>
+            Tempura Sauce/Grated Daikon<br>
+            Mojio Salt<br>
+        </div>
+      
+        <div class="item" 
+             style="cursor:pointer;" 
+             onclick="openPic('ebi-tempura');">
+            <b>Ebi Tempura</b>
+            <span class="price">40</span><br>
+            5 Shrimp Tempura<br>
+            Tempura Sauce/Grated Daikon<br>
+            Mojio Salt<br>
+        </div>
+  
+  
+        <div class="item" style="cursor:pointer;" onclick="openPic('softshell-crab');">
+            <b>Softshell Crab</b>
+            <span class="price">48</span><br>
+            Deep fried softshell crab with tapioca powder,<br>
+            crab butter aioli, shishito peppers
+        </div>
+      
+
+      
+
+    </div><!--right-->
+</div><!--fried-->
+
+      
+      
+      
+      
+<div id="fish" class="section">
+    <div class="left">Fish</div>
+    <div class="right">
+
+      
+      
+      
+
+        <div class="item" 
+             style="cursor:pointer;" 
+             onclick="openPic('cod');">
+            <b>Gindara</b>
+            <span class="price">48</span><br>
+            Miso Black Cod
+        </div>      
+      
+        <div class="item" style="cursor:pointer;" onclick="openPic('hamachi-kama');">
+            <b>Hamachi Kama</b><span class="price">52</span><br>
+            Charcoal Grilled Yellow Tail Collar<br>
+            <span style="color:red;">Yuzu Ponzu</span>
+        </div>
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('lobster-uni');">
+          <b>Lobster & Uni Ogonyaki</b>
+          <span class="price">84</span><br>
+          Grilled Lobster (tail + 1 claw)<br>
+          Uni<br>
+          Egg Miso Sauce<br>
+          Lobster Oil<br>
+          Shredded Shiso Leaf
+        </div>
+
+        <div class="item" 
+             style="cursor:pointer;" 
+             onclick="openPic('suzuki-ankake');">
+            <b>Suzuki Ankake</b>
+            <span class="price">45</span><br>
+            Branzino, summer vegetables in ponzu ankake<br>
+            sauce, grated daikon radish, fried ginger
+        </div>
+
+
+
+    </div><!--right-->
+</div><!--fish-->
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+<div id="meats" class="section">
+    <div class="left">Meats</div>
+    <div class="right">
+      
+        <div class="item" style="cursor:pointer;" onclick="openPic('jidori');">
+            <b>Shio Koji Jidori Sumibi Yaki</b><span class="price">36</span><br>
+            Charcoal Grilled Chicken,<br>
+            Yuzu Sesame Ponzu, Daikon Oroshi
+        </div>
+
+      
+        <div class="item" style="cursor:pointer;" onclick="openPic('kakuni');">
+            <b>Kakuni</b><span class="price">48</span><br>
+            Braised pork belly with simmered egg, whole<br> 
+            grain mustard, spinach, tokyo negi scallions
+        </div>
+
+      
+      
+      
+      
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('sirloin');">
+          <b>5oz A5 Kobe Beef Sirloin / Hoba Miso Yaki</b>
+          <span class="price">188</span><br>
+          Charcoal Grilled<br>
+          Grilled Vegetables<br>
+          Hoba Miso<br>
+          Hoba Leaf (Magnolia Tree)<br>
+          Shichirin Tabletop Grill<br>
+        </div>
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('tenderloin');">
+            <b>5oz A5 Kobe Beef Tenderloin / Hoba Miso Yaki</b>
+            <span class="price">198</span><br>
+            Charcoal Grilled<br>
+            Grilled Vegetables<br>
+            Hoba Miso<br>
+            Hoba Leaf (Magnolia Tree)<br>
+            Shichirin Tabletop Grill<br>
+        </div>
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('A5-kobe-ribeye-sukiyaki');">
+            <b>6oz A5 Kobe Ribeye Sukiyaki</b><span class="price">212</span><br>
+            Summer Vegetables, Tofu, Ontama
+        </div>
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('kosher-denver-steak');">
+            <b>"KOSHER-STYLE" Wagyu Denver Steak 12oz</b><span class="price">185</span><br>
+            Well Marbled, Tender Shoulder Cut 
+        </div>
+
+      
+    </div><!--right-->
+</div><!--meats-->
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<div id="vegetables" class="section">
+    <div class="left">Market</div>
+    <div class="right">
+
+
+      
+      
+
+      
+        <div class="item" style="cursor:pointer;" onclick="openPic('tofu-miso-yaki');">
+        <b>Tofu Miso Yaki</b><span class="price">28</span><br>
+        Charcoal Grilled Tofu<br>
+        Grilled Vegetables<br>
+        Red shiso Miso<br>
+        </div>
+      
+ 
+
+      
+        <div class="item" style="cursor:pointer;" onclick="openPic('maitake-steak');">
+            <b>Maitake Sumibi Yaki</b><span class="price">35</span><br>
+            Grilled Maitake Mushrooms<br>
+            Teriyaki Sauce OR Ponzu Sauce<br>
+            Truffle Oil???<br>
+            Summer Vegetables
+        </div>
+      
+       <div class="item" style="cursor:pointer;" onclick="openPic('shiraae');">
+        <b>Natsu Yasai Shiraae</b><span class="price">28</span><br>
+        Summer vegetables<br>
+        in a tofu, cream cheese dip,<br>
+        ponzu jelly
+        </div>
+      
+
+    </div><!--right-->
+</div><!--vegetables-->
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<div id="rice-noodle" class="section">
+    <div class="left">Rice & Noodle</div>
+    <div class="right">
+
+      
+
+      
+        <div class="item" style="cursor:pointer;" onclick="openPic('yakimeshi');">
+            <b>Yakimeshi</b><span class="price">28</span><br>
+            Vegetable Mixed Rice<br>
+            <span style="font-style:italic">
+              with Braised Pork<span class="price">40</span><br>
+              with Onsen Tamago<span class="price">33</span>
+            </span>
+        </div>
+      
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('unagi-gohan');">
+            <b>Unagi Gohan</b><span class="price">55</span><br>
+            Charcoal Grilled Eel<br>
+            Teriyaki Sauce<br>
+            Over Rice<br>
+            Sansho Pepper on the side<br>
+            Wasabi<br>
+            Gari/Pickled Japanese Pink Ginger(sweet)          
+        </div>      
+
+      
+      
+        <div class="item" style="cursor:pointer;" onclick="openPic('zaru-soba');">
+            <b>Zaru Soba</b><span class="price">26</span><br>
+            Cold Soba Noodles, Yakumi, Karajiru dipping sauce,<br>
+            Yakumi = 'seasonings' / tokyo negi scallions, wasabi, nori<br>
+            <span style="font-style:italic">
+              with Tempura Moriawase<span class="price">39</span><br>
+              with Vegetable Tempura<span class="price">35</span>
+            </span>
+        </div>
+
+      
+        <div class="item" style="cursor:pointer;" onclick="openPic('a5-kamatama-udon');">
+            <b>3oz A5 Kobe Kamatama Udon</b><span class="price">78</span><br>
+            Ontama Egg, Mushrooms,<br>
+            Non-Soup Udon Noodles
+        </div>
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('a5-wagyu-yakishabu-gohan');">
+            <b>3oz A5 Kobe Yakishabu Gohan</b><span class="price">78</span><br>
+            Ontama Egg, Takana(pickled mustard greens)
+        </div>
+
+
+      
+    </div><!--right-->
+</div><!--rice & noodle-->
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+</div><!--page-->
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+  
+      
+
+  
+  
+  
+<div id="cod" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" class="fa-solid fa-square-xmark x" onclick="closePic('cod');">
+    </i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/gindara.jpg?v=1718246123189">
+    <figcaption>
+      <b>Gindara</b><span class="price">48</span>
+      <br>Miso Black Cod
+    </figcaption>
+  </figure>
+</div>
+
+  
+
+<div id="hamachi-kama" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('hamachi-kama');">
+    </i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/hamachi-kama.jpg?v=1718246444415">
+    <figcaption>
+      <b>Hamachi Kama</b>
+      <span class="price">52</span><br>
+            Charcoal Grilled Yellow Tail Collar<br>
+            <span style="color:red;">Ponzu</span>      
+    </figcaption>
+  </figure>
+</div>
+  
+  
+<div id="lobster-uni" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('lobster-uni');"></i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/Screenshot_20241020_104437_Adobe%20Acrobat.jpg?v=1729435514687">
+    <figcaption>
+      <b>Lobster & Uni Ogonyaki</b>
+      <span class="price">84</span><br>
+      Grilled Lobster (tail + 1 claw)<br>
+      Uni<br>
+      Egg Miso Sauce<br>
+      Lobster Oil<br>
+      Shredded Shiso Leaf
+    </figcaption>
+  </figure>
+  </div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<div id="jidori" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('jidori');"></i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/chicken.jpg?v=1718246714905">
+    <figcaption>
+      <b>Shio Koji Jidori Sumibi Yaki</b>
+      <span class="price">36</span><br>
+      Charcoal Grilled Chicken,<br>
+      Yuzu Sesame Ponzu, Daikon Oroshi
+    </figcaption>
+  </figure>
+  </div>
+  
+  
+  
+  
+<div id="sirloin" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('sirloin');"></i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/Screenshot_20241020_105045_Adobe%20Acrobat.jpg?v=1729435885237">
+    <figcaption>
+      <b>5oz A5 Kobe Beef Sirloin / Hoba Miso Yaki</b>
+      <span class="price">188</span><br>
+      Charcoal Grilled<br>
+      Grilled Vegetables<br>
+      Hoba Miso<br>
+      Hoba Leaf (Magnolia Tree)<br>
+      Shichirin Tabletop Grill<br>
+    </figcaption>
+  </figure>
+</div>
+  
+<div id="tenderloin" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('tenderloin');"></i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/Screenshot_20241020_105759_Adobe%20Acrobat.jpg?v=1729436324222">
+    <figcaption>
+      <b>5oz A5 Kobe Beef Tenderloin</b>
+      <span class="price">198</span><br>
+      Charcoal Grilled<br>
+      Grilled Vegetables<br>
+      Hoba Miso<br>
+      Hoba Leaf (Magnolia Tree)<br>
+      Shichirin Tabletop Grill<br>
+    </figcaption>
+  </figure>
+</div>
+  
+  
+<div id="A5-kobe-ribeye-sukiyaki" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('A5-kobe-ribeye-sukiyaki');"></i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/Screenshot_20240630_103711_Adobe%20Acrobat.jpg?v=1719758268044">
+    <figcaption>
+      <b>6oz A5 Kobe Ribeye Sukiyaki</b>
+      <span class="price">212</span><br>
+      Kobe Ribeye Sliced Thin,<br>
+      Cooked Tableside in Sukiyaki Soup,<br>
+      Summer Vegetables,<br>
+      Grilled Tofu,<br>
+      Plant-Based Agar Noodles(red algae/gelatin-like)<br>
+      Onsen Tamago(poached egg)
+    </figcaption>
+  </figure>
+  </div>
+  
+  
+<div id="kosher-denver-steak" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('kosher-denver-steak');"></i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/kosher-denver-steak.jpg?v=1719807258175">
+    <figcaption>
+      <b>"KOSHER-STYLE" Wagyu Denver Steak 12oz</b>
+      
+      <span class="price">185</span><br>
+      Well Marbled, Tender, Shoulder Cut
+    </figcaption>
+  </figure>
+</div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+        
+<div id="a5-kamatama-udon" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" class="fa-solid fa-square-xmark x" onclick="closePic('a5-kamatama-udon');">
+    </i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/Screenshot_20240630_104439_Adobe%20Acrobat.jpg?v=1719758715729">
+    <figcaption>
+        <b>3oz A5 Kobe Kamatama Udon</b><span class="price">78</span><br>
+        Ontama Egg, Mushrooms,<br>
+        Non-Soup Udon Noodles
+    </figcaption>
+  </figure>
+</div>
+  
+  
+
+
+  
+<div id="a5-wagyu-yakishabu-gohan" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" class="fa-solid fa-square-xmark x" onclick="closePic('a5-wagyu-yakishabu-gohan');">
+    </i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/Screenshot_20240630_104929_Adobe%20Acrobat.jpg?v=1719759009354">
+    <figcaption>
+        <b>3oz A5 Kobe Yakishabu Gohan</b>
+      <span class="price">78</span><br>
+        Ontama Egg, Takana(pickled mustard greens)
+    </figcaption>
+  </figure>
+</div>
+  
+  
+<div id="unagi-gohan" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" class="fa-solid fa-square-xmark x" onclick="closePic('unagi-gohan');">
+    </i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/Screenshot_20240613_003824_Adobe%20Acrobat.jpg?v=1718253541231">
+    <figcaption>
+        <b>Unagi Gohan</b><span class="price">55</span><br>
+        Charcoal Grilled Eel
+    </figcaption>
+  </figure>
+</div>
+  
+  
+  
+<div id="yakimeshi" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" class="fa-solid fa-square-xmark x" onclick="closePic('yakimeshi');">
+    </i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/yakimeshi.jpg?v=1718256519202">
+    <figcaption>
+        <b>Yakimeshi</b><span class="price">28</span><br>
+        Vegetable Mixed Rice<br>
+            <span style="font-style:italic">
+              with Braised Pork<span class="price">40</span><br>
+              with Onsen Tamago<span class="price">33</span>
+            </span>
+    </figcaption>
+  </figure>
+</div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<div id="shiraae" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" class="fa-solid fa-square-xmark x" onclick="closePic('shiraae');">
+    </i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/shiraae.jpg?v=1750608875084">
+    <figcaption>
+        <b>Shiraae</b><span class="price">28</span><br>
+        Summer vegetables<br> 
+        in a tofu, cream cheese dip,<br>
+        ponzu jelly
+    </figcaption>
+  </figure>
+</div>
+  
+  
+
+<div id="tofu-miso-yaki" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" class="fa-solid fa-square-xmark x" onclick="closePic('tofu-miso-yaki');">
+    </i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/tofu-miso-yaki.jpg?v=1750608694144">
+    <figcaption>
+        <b>Tofu Miso Yaki</b><span class="price">28</span><br>
+        Charcoal Grilled Tofu<br>
+        Grilled Vegetables<br>
+        Red shiso Miso<br>
+    </figcaption>
+  </figure>
+</div>
+  
+  
+  
+<div id="maitake-steak" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" class="fa-solid fa-square-xmark x" onclick="closePic('maitake-steak');">
+    </i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/maitake.jpg?v=1718248100976">
+    <figcaption>
+        <b>Maitake Sumibi Yaki</b><span class="price">35</span><br>
+            Grilled Maitake Mushrooms<br>
+            Teriyaki Sauce<br>
+            Truffle Oil???<br>
+            Summer Vegetables
+    </figcaption>
+  </figure>
+</div>
+
+
+
+
+<div id="suzuki-ankake" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('suzuki-ankake');">
+    </i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/suzuki-ankake.jpg?v=1750606690535">
+    <figcaption>
+            <b>Suzuki Ankake</b><span class="price">45</span><br>
+            Branzino, seasonal vegetables in ponzu ankake<br>
+            sauce, grated daikon radish, fried ginger
+    </figcaption>
+  </figure>
+</div>
+
+<div id="kakuni" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('kakuni');">
+    </i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/kakuni.jpg?v=1750608113354">
+    <figcaption>
+            <b>Kakuni</b><span class="price">48</span><br>
+            Braised pork belly with simmered egg, whole<br>
+            grain mustard, spinach, tokyo negi scallions
+    </figcaption>
+  </figure>
+</div>
+
+<div id="zaru-soba" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('zaru-soba');">
+    </i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/zaru-soba.jpg?v=1750611092727">
+    <figcaption>
+<b>Zaru Soba</b><span class="price">26</span><br>
+            Cold Soba Noodles, Yakumi, Karajiru dipping sauce,<br>
+            Yakumi = 'seasonings' / tokyo negi scallions, wasabi, nori<br>
+            <span style="font-style:italic">
+              with Tempura Moriawase<span class="price">39</span><br>
+              with Vegetable Tempura<span class="price">35</span>
+            </span>    </figcaption>
+  </figure>
+</div>
+
+  
+
+  
+<div id="softshell-crab" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('softshell-crab');"></i></div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/softshell-crab.jpg?v=1750606224892">
+    <figcaption>
+        <b>Softshell Crab</b><span class="price">48</span><br>
+        Deep fried softshell crab with tapioca powder,<br>
+        crab butter aioli, shishito peppers
+    </figcaption></figure>
+</div>
+
+  
+  
+  
+<div id="yasai" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('yasai');"></i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/Screenshot_20240613_001741_Adobe%20Acrobat.jpg?v=1718252304757">
+    <figcaption>
+      <b>Yasai Tempura</b><span class="price">26</span><br>
+      8 Summer Vegetables<br>
+      Tempura Sauce/Grated Daikon<br>
+      Mojio Salt<br>
+    </figcaption>
+  </figure>
+  </div>
+
+  
+  
+  
+<div id="moriawase" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('moriawase');"></i></div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/Screenshot_20240613_002143_Adobe%20Acrobat.jpg?v=1718252546371">
+    <figcaption><b>Tempura Moriawase</b><span class="price">36</span><br>
+        2 Ebi / Shrimp,<br>
+        2 Yukari Age / Shiso Leaf-Yellowtail-Garlic,<br> 
+        Winter Vegetables<br>
+        Tempura Sauce/Grated Daikon<br>
+        Mojio Salt
+    </figcaption></figure></div>
+
+  
+  
+  
+  
+<div id="ebi-tempura" class="photo hidden">
+  <div class="close">
+  <i style="cursor:pointer;" 
+     class="fa-solid fa-square-xmark x" 
+     onclick="closePic('ebi-tempura');"></i></div>
+  <figure>
+  <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/ebi-tempura.jpg?v=1718246026606">
+    <figcaption>
+      <b>Ebi Tempura</b>
+      <span class="price">40</span><br>
+      5 Shrimp Tempura<br>
+    </figcaption>
+  </figure>
+</div>
+
+
+
+
+  
+  
+</body>
+</html>
