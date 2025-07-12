@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/21ef82ed30.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+    let picOpen = false;
+    function openPic(menuItem){
+        if (picOpen == false){
+            document.getElementById(menuItem).classList.remove('hidden');
+            // window.scrollTo(0,0);
+            picOpen = true;}
+    };
+    function closePic(menuItem){
+        document.getElementById(menuItem).classList.add('hidden');
+        picOpen = false;
+    };
+</script>
+
+<body>
+<div id="page">
+    <img id="logo" src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/nama.jpg?v=1682878810526" style="text-align:center;">
+    <ul id="nav">
+        <a href="index.html"><li>Starters</li></a>
+        <a href="mains.html"><li>Mains</li></a>
+        <a href="sushi.html"><li>Sushi</li></a>
+        <a href="desserts.html"><li>Desserts</li></a>
+    </ul>
+    <ul id="nav2">
+        <a href="wine.html"><li>Wine</li></a>
+        <a href="#"><li id="current-page">Beer</li></a>
+        <a href="cocktails.html"><li>Cocktails</li></a>
+        <a href="mocktails.html"><li>Zero Proof</li></a>
+    </ul>
+  
+  
+  
+  
+  
+
+<div id="beer" class="section">
+    <div class="left">Beer</div>
+    <div class="right">
+
+        <div class="item">
+            <b>Sapporo Lager</b><span class="price">12</span><br>
+            Hokkaido, Japan
+        </div>
+
+        <div class="item">
+            <b>Echigo Koshihikari Rice Ale</b><span class="price">12</span><br>
+            Niigata, Japan
+        </div>
+
+        <div class="item">
+            <b>Hitachino Nest White Ale</b><span class="price">12</span><br>
+            Naka, Japan
+        </div>
+
+      <div class="item">
+            <b>Non-Alcoholic Pilsner & India Pale Ale</b><span class="price">12</span><br>
+            Beacon, New York
+        </div>
+
+
+      
+            
+    </div><!--right-->
+</div><!--beer-->
+
+
+
+
+</div><!--page-->
+
+</body>
+</html>

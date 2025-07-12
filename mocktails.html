@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/21ef82ed30.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+    let picOpen = false;
+    function openPic(menuItem){
+        if (picOpen == false){
+            document.getElementById(menuItem).classList.remove('hidden');
+            // window.scrollTo(0,0);
+            picOpen = true;}
+    };
+    function closePic(menuItem){
+        document.getElementById(menuItem).classList.add('hidden');
+        picOpen = false;
+    };
+</script>
+
+<body>
+<div id="page">
+    <img id="logo" src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/nama.jpg?v=1682878810526" style="text-align:center;">
+    <ul id="nav">
+        <a href="index.html"><li>Starters</li></a>
+        <a href="mains.html"><li>Mains</li></a>
+        <a href="sushi.html"><li>Sushi</li></a>
+        <a href="desserts.html"><li>Desserts</li></a>
+    </ul>
+    <ul id="nav2">
+        <a href="wine.html"><li>Wine</li></a>
+        <a href="beer.html"><li>Beer</li></a>
+        <a href="cocktails.html"><li>Cocktails</li></a>
+        <a href="#"><li id="current-page">Zero Proof</li></a>
+    </ul>
+
+<div id="wine" class="section">
+    <div class="left">Zero Proof</div>
+    <div class="right">
+
+
+        <div class="item" onclick="openPic('souchong-sour')">
+            <b>Souchong Sour</b><span class="price">16</span><br>
+            Lapsang Suchong Kombucha,<br>
+            Passion Fruit, Pomegranate
+        </div>
+      
+        <div class="item" onclick="openPic('phony-negroni')">
+            <b>Phony Negroni</b><span class="price">14</span><br>
+            Gntian, Orange Flower, Juniper, Quinine
+        </div>
+
+        <div class="item" onclick="openPic('gyukoko')">
+            <b>Gyokoko</b><span class="price">12</span><br>
+            Gyokuro Green Tea, Mint,<br>
+            Thai Coconut, Lime
+        </div>
+
+        <div class="item" onclick="openPic('nomericano')">
+            <b>Nomericano</b><span class="price">14</span><br>
+            Wilfred's Bittersweet Aperitif,<br>
+            St. Agrestis Amaro, Falso,<br>
+            Salted Raspberry
+        </div>
+
+    
+
+        <div class="item">
+            <b>Iced Tea</b><span class="price">15</span><br>
+            Citrus Gingko Green Tea<br>
+            Peach Black Tea
+        </div>
+      
+      
+      
+      
+    </div><!--right-->
+</div><!--mocktails-->
+
+
+
+
+</div><!--page-->
+  
+
+ 
+
+</body>
+</html>

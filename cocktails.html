@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/21ef82ed30.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+    let picOpen = false;
+    function openPic(menuItem){
+        if (picOpen == false){
+            document.getElementById(menuItem).classList.remove('hidden');
+            // window.scrollTo(0,0);
+            picOpen = true;}
+    };
+    function closePic(menuItem){
+        document.getElementById(menuItem).classList.add('hidden');
+        picOpen = false;
+    };
+</script>
+
+<body>
+<div id="page">
+    <img id="logo" src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/nama.jpg?v=1682878810526" style="text-align:center;">
+    <ul id="nav">
+        <a href="index.html"><li>Starters</li></a>
+        <a href="mains.html"><li>Mains</li></a>
+        <a href="sushi.html"><li>Sushi</li></a>
+        <a href="desserts.html"><li>Desserts</li></a>
+    </ul>
+    <ul id="nav2">
+        <a href="wine.html"><li>Wine</li></a>
+        <a href="beer.html"><li>Beer</li></a>
+        <a href="#"><li id="current-page">Cocktails</li></a>
+        <a href="mocktails.html"><li>Zero Proof</li></a>
+    </ul>
+
+<div id="cocktails" class="section">
+    <div class="left">Cocktails</div>
+    <div class="right">
+
+        <!-- <div class="item" style="cursor:pointer;" onclick="openPic('nama-kyu');">
+            <b>Nama Kyū</b><span class="price">22</span><br>
+            Tyku Sake Cucumber, Lime,<br>
+            Yuzu, Cucumbers, Sprig Mint
+        </div> -->
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('ume-spritz');">
+            <b>Ume Spritz</b><span class="price">30</span><br>
+            Kagatsuru Umeshu Sour Plum Sake,<br>
+            Peach Liqueur, Bisson Glera Prosecco,<br>
+            Mondino Aperitivo(Campari-like)
+        </div>
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('bamboo');">
+            <b>Bamboo</b><span class="price">30</span><br>
+            Mauro Vergano Vermouth, Bodegas Hidalgo<br>
+            Manzanilla & Amontillado, Sakura
+        </div>
+
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('foxs-wedding');">
+            <b>A Fox's Wedding</b><span class="price">30</span><br>
+            Osuzuyama Sweet Potato Gin<br>
+            Summer Snow Nigori Sake<br>
+            Cinnamon<br>
+            Lime Juice<br>
+            Frapin Cognac        
+        </div>
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('ringo-mitai');">
+            <b>Ringo Mitai</b><span class="price">30</span><br>
+            Nikka Gin, Sencha Green Tea, Midori,<br>
+            Centum Herbis, Lime
+        </div>
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('yuzu-sour');">
+            <b>Yuzu Sour</b><span class="price">30</span><br>
+            Mal Bien Limon Zacate,<br>
+            Yuzu Kosho Lemon,<br>
+            Daiyame Shochu
+        </div>
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('kujaku');">
+            <b>Kujaku</b><span class="price">30</span><br>
+            Perry's Tot Gin, Wasabi Suze,<br>
+            Besk Lime, Cappelletti, Almond
+        </div>
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('long-island-bitter');">
+            <b>Lubang Island Bitter</b><span class="price">30</span><br>
+            Hojicha(Green Tea) Infused Rum, Varnelli Sibilla & Erborista,<br>
+            Nonino, Strega
+        </div>
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('okusuri');">
+            <b>Okusuri</b><span class="price">30</span><br>
+            Ichiro's Malt & Grain, Port Askaig 110 Peated,<br>
+            Pickled Ginger Honey, Lemon
+        </div>
+
+
+
+    </div><!--right-->
+</div><!--cocktails-->
+
+  
+  
+
+
+
+</div><!--page-->
+<!-- <div id="nama-kyu" class="photo hidden"><div class="close"><i style="cursor:pointer;" class="fa-solid fa-square-xmark x" onclick="closePic('nama-kyu');"></i></div><figure><img src="img/nama-kyu.jpg"><figcaption><b>Nama Kyū</b><span class="price">22</span><br>Tyku Sake Cucumber, Lime,<br>Yuzu, Cucumbers, Sprig Mint</figcaption></figure></div> -->
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <div id="ume-spritz" class="photo hidden">
+    <div class="close">
+      <i style="cursor:pointer;" 
+         class="fa-solid fa-square-xmark x" 
+         onclick="closePic('ume-spritz');">
+      </i>
+    </div>
+    <figure>
+      <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/ume-spritz.jpg?v=1750707653582">
+      <figcaption>
+            <b>Ume Spritz</b><span class="price">30</span><br>
+            Kagatsuru Umeshu, Peach, Bisson Glera
+      </figcaption>
+    </figure>
+  </div>
+
+  <div id="ringo-mitai" class="photo hidden">
+    <div class="close">
+      <i style="cursor:pointer;" 
+         class="fa-solid fa-square-xmark x" 
+         onclick="closePic('ringo-mitai');">
+      </i>
+    </div>
+    <figure>
+      <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/ringo-mitai.jpg?v=1750707916538">
+      <figcaption>
+            <b>Ringo Mitai</b><span class="price">30</span><br>
+            Nikka Gin, Sencha Green Tea, Midori,<br>
+            Centum Herbis, Lime
+      </figcaption>
+    </figure>
+  </div>
+
+
+  
+  
+  <div id="yuzu-sour" class="photo hidden">
+    <div class="close">
+      <i style="cursor:pointer;" 
+         class="fa-solid fa-square-xmark x" 
+         onclick="closePic('yuzu-sour');"></i>
+    </div>
+    <figure>
+      <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/20240218_183922.jpg?v=1708895380723">
+      <figcaption>
+            <b>Yuzu Sour</b><span class="price">30</span><br>
+            Rey Campero Espadin<br>
+            Daiyame 40 Shochu<br>
+            Yuzu<br>
+            Chartreuse
+      </figcaption>
+    </figure>
+  </div>
+
+<div id="foxs-wedding" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('foxs-wedding');"></i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/20231210_211048.jpg?v=1702834089867">
+    <figcaption>
+            <b>A Fox's Wedding</b><span class="price">30</span><br>
+            Nigori Sake<br>
+            Lime Juice<br>
+            Osuzu Sweet Potato Gin<br>
+            Frapin Cognac
+    </figcaption>
+  </figure>
+</div>
+
+  
+
+<div id="kujaku" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('kujaku');"></i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/kujaku.jpg?v=1750786044065">
+    <figcaption>
+            <b>Kujaku</b><span class="price">30</span><br>
+            Perry's Tot Gin, Wasabi Suze,<br>
+            Besk Lime, Cappelletti, Almond
+    </figcaption>
+  </figure>
+</div>
+
+    
+  
+  
+</body>
+</html>
