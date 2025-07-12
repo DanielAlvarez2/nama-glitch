@@ -1,11 +1,555 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/21ef82ed30.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nama</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
+<script>
+    let picOpen = false;
+    function openPic(menuItem){
+        if (picOpen == false){
+            document.getElementById(menuItem).classList.remove('hidden');
+            // window.scrollTo(0,0);
+            picOpen = true;}
+    };
+    function closePic(menuItem){
+        document.getElementById(menuItem).classList.add('hidden');
+        picOpen = false;
+    };
+</script>
+
 <body>
-    <h1>Nama/Glitch</h1>
+<div id="page">
+    <img id="logo" src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/nama.jpg?v=1682878810526" style="text-align:center;">
+    <ul id="nav">
+        <a href="#"><li id="current-page">Starters</li></a>
+        <a href="mains.html"><li>Mains</li></a>
+        <a href="sushi.html"><li>Sushi</li></a>
+        <a href="desserts.html"><li>Desserts</li></a>
+    </ul>
+    <ul id="nav2">
+        <a href="wine.html"><li>Wine</li></a>
+        <a href="beer.html"><li>Beer</li></a>
+        <a href="cocktails.html"><li>Cocktails</li></a>
+        <a href="mocktails.html"><li>Zero Proof</li></a>
+    </ul>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<div id="soup" class="section">
+    <div class="left">Soup</div>
+    <div class="right">
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('miso');">
+            <b>Miso Soup</b><span class="price">9</span><br>
+            Awase Miso, Seaweed, Tofu, Chives
+        </div>
+      
+        <div class="item" style="cursor:pointer;" onclick="openPic('corn-soup');">
+            <b>Tomorokoshi Surinagashi</b><span class="price">14</span><br>
+            Chilled Corn Soup, Shallots
+        </div>
+      
+
+    </div><!--right-->
+</div><!--soup-->  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<div id="small-plates" class="section">
+  <div class="left">Small Plates</div>
+    <div class="right">
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('chamame');">
+            <b>Chamame</b><span class="price">9</span><br>
+            Edamame, Shichimi Salt
+        </div>
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('shishitos');">
+            <b>Shishito Pepper</b><span class="price">16</span><br>
+            Bonito Flakes
+        </div>
+      
+        <div class="item" style="cursor:pointer;" onclick="openPic('goma-ae');">
+            <b>Goma Ae</b><span class="price">16</span><br>
+            Spinach, Shimeji Mushroom, Sesame Soy
+        </div>
+      
+        <div class="item" style="cursor:pointer;" onclick="openPic('jikasei');">
+      <b>Tsukemono Moriawase</b>
+      <span class="price">15</span><br>
+      Housemade Japanese Pickled Vegetables:<br>
+      Yam / Ohba Soy Sauce(GF)<br>
+      Turnip / Fermented Rice Bran<br>
+      Radish / Fermented Rice Bran<br>
+      Cucumber / Japanese Mustard<br>
+      Beets / Sweet Vinegar
+        </div>
+      
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('usuzukuri');">
+            <b>Hamachi Usuzukuri (5pcs)</b><span class="price">34</span><br>
+            Yellowtail, Yuzu Sesame Ponzu, Crispy Garlic
+        </div>
+      
+        <div class="item" style="cursor:pointer;" onclick="openPic('nama-tofu');">
+            <b>Nama Tofu</b>
+            <span class="price">19</span><br>
+            Housemade Tofu, Dashi Shoyu
+        </div>
+      
+      
+        <div class="item" style="cursor:pointer;" onclick="openPic('tataki');">
+            <b>A5 Wagyu Tataki (5pcs)</b>
+            <span class="price">32</span><br>
+            A5 Miyazaki Wagyu, Grated Daikon, Ponzu
+        </div>
+      
+        <div class="item" style="cursor:pointer;" onclick="openPic('suzuki-carpaccio');">
+            <b>Suzuki Carpaccio</b>
+            <span class="price">28</span><br>
+            Branzino, Kyuri, Okinawa Citrus
+        </div>
+      
+      
+
+
+      
+      
+      
+    </div><!--right-->
+</div><!--small plates-->
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+<div id="salad" class="section">
+    <div class="left">Salad</div>
+    <div class="right">
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('greenmarket');">
+            <b>Greenmarket Salad</b><span class="price">28</span><br>
+            Summer Vegetables, Sesame Miso Dressing<br>
+            <span style="font-style:italic">with Tofu & Chili Oil<span class="price">37</span></span><br>
+            <span style="font-style:italic">with Warm Mushrooms<span class="price">39</span></span><br>
+            <br>
+            Gem Lettuce<br>
+            Cherry Tomato<br>
+            Baby Corn<br>
+            Radish<br>
+            Wakame<br>
+            Shallot Chips<br>
+        </div>
+
+      
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('caesar');">
+            <b>Nama Caesar Salad</b><span class="price">23</span><br>
+            Gem Lettuce, Yuzu Sesame Dressing,<br>
+            Onsen Tamago, Katsuo Bushi/Bonito Flakes,<br>
+            Aonori, Parmesan Cheese<br>
+            <span style="font-style:italic">
+            with Warm Mushrooms <span class="price">34</span><br>  
+            with Hokkaido "Unibushi" <span class="price">43</span>  
+            </span><br>            
+        </div>
+
+      
+      
+      
+      
+      
+    </div><!--right-->
+</div><!--salad-->
+
+
+
+  
+  
+  
+  
+  
+  
+
+<a href="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/allergy-chart.jpg?v=1743363210787">
+  Allergy Chart</a>
+<br><br>
+<a href="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/Nama%20Sauces%20Chart(1).pdf?v=1719846452261">
+  Sauces Allergy Chart</a>
+<br><br>
+  
+  
+</div><!--page-->
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<div id="suzuki-carpaccio" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('suzuki-carpaccio');"></i></div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/suzuki-carpaccio.jpg?v=1750606066949">
+    <figcaption>
+        <b>Suzuki Carpaccio</b><span class="price">28</span><br>
+        Thinly sliced branzino in a cucumber sauce, <br>
+        with grated cucumber, salted cucumber, micro shiso<br>
+        Kyuri = Cucumber
+    </figcaption></figure>
+</div>
+
+  
+  
+<div id="nama-tofu" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('nama-tofu');"></i></div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/nama-tofu.jpg?v=1750604979814">
+    <figcaption>
+        <b>Nama Tofu</b><span class="price">19</span><br>
+        House-made Tofu, Dashi Nikiri Soy Sauce on the side,<br>
+        with ginger paste, chives, bonito powder<br>
+    </figcaption></figure>
+</div>
+
+  
+  
+
+<div id="miso" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('miso');"></i></div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/miso-soup.jpg?v=1718245050502">
+    <figcaption>
+        <b>Miso Soup</b><span class="price">9</span><br>
+        Awase Miso, Seaweed, Tofu, Chives<br>
+    </figcaption></figure>
+</div>
+
+<div id="corn-soup" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('corn-soup');"></i></div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/corn-soup.jpg?v=1750604667171">
+    <figcaption>
+        <b>Tomorokoshi Surinagashi</b><span class="price">14</span><br>
+        Chilled Corn Soup, Shallots<br>
+        Corn, Onion, Fried Shallots, Soy Milk
+    
+    </figcaption></figure>
+</div>
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+<div id="chamame" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('chamame');"></i></div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/Screenshot_20240630_101639_Adobe%20Acrobat.jpg?v=1719757069559">
+    <figcaption>
+      <b>Chamame</b>
+      <span class="price">9</span><br>
+        Edamame, 7-Spice Chili Salt<br><br>
+        Red Chili, Poppy Seeds, White Sesame, Black Sesame, Sansho Pepper, Aonori Seaweed, Shiso
+    </figcaption>
+  </figure>
+  </div>
+
+  
+  
+  
+<div id="shishitos" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('shishitos');"></i></div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/shishitos.jpg?v=1718245291156">
+    <figcaption>
+      <b>Shishito Pepper</b>
+      <span class="price">16</span><br>
+        Bonito Flakes<br><br>
+        Bonito Flakes/Katsuo Bushi/Smoked Tuna, Soy Sauce<br><br>
+        CAPSAICIN, soy/gluten, fish<br><br>
+        Mise en place: Small bowl for stems
+    </figcaption></figure></div>
+
+
+<div id="goma-ae" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('goma-ae');"></i></div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/goma-ae.jpg?v=1718245382432">
+    <figcaption>
+      <b>Goma Ae</b>
+      <span class="price">16</span><br>
+        Spinach, Shimeji Mushroom, Sesame Soy<br><br>
+        Lightly blanched spinach and shimeji mushrooms, tossed in white sesame dressing. 
+        Topped with toasted white sesame.<br><br>
+
+    </figcaption>
+  </figure>
+  </div>
+  
+
+  
+<div id="jikasei" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('jikasei');">
+    </i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/Screenshot_20241020_103104_Adobe%20Acrobat.jpg?v=1729434707940">
+    <figcaption>
+      <b>Tsukemono Moriawase</b>
+      <span class="price">15</span><br>
+      Housemade Japanese Pickled Vegetables:<br>
+      Yam / Ohba Soy Sauce(GF)<br>
+      Turnip / Fermented Rice Bran<br>
+      Radish / Fermented Rice Bran<br>
+      Cucumber / Japanese Mustard<br>
+      Beets / Sweet Vinegar
+    </figcaption>
+  </figure>
+  </div>
+
+  
+  
+
+  
+  
+  
+  
+  
+<div id="usuzukuri" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('usuzukuri');"></i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/Screenshot_20240613_032834_Adobe%20Acrobat.jpg?v=1718263768534">
+    <figcaption>
+        <b>Hamachi Usuzukuri (5pcs)</b>
+        <span class="price">34</span><br>
+            Yellowtail, Yuzu Sesame Ponzu, Crispy Garlic 
+      
+     </figcaption>
+  </figure>
+</div>
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+<div id="tataki" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('tataki');"></i></div>
+  <figure>
+  <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/Screenshot_20240613_033211_Adobe%20Acrobat.jpg?v=1718263959586">
+    <figcaption>
+      <b>A5 Wagyu Tataki (5pcs)</b>
+      <span class="price">32</span><br>
+            Seared A5 Wagyu, Grated Daikon in Yuzu<br>
+            Ponzu Dressing, Garlic Chips, Shiso
+    </figcaption></figure>
+</div>
+
+  
+<div id="caesar" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('caesar');"></i></div>
+  <figure>
+  <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/Screenshot_20241020_101916_Adobe%20Acrobat.jpg?v=1729434012029">
+    <figcaption>
+            <b>Nama Caesar Salad</b><span class="price">23</span><br>
+            Gem Lettuce, Yuzu Sesame Dressing,<br>
+            Onsen Tamago, Katsuo Bushi/Bonito Flakes,<br>
+            Aonori, Parmesan Cheese<br>
+            <span style="font-style:italic">
+            with Warm Mushrooms <span class="price">34</span><br>  
+            with Hokkaido "Unibushi" <span class="price">43</span>  
+            </span><br>
+    </figcaption></figure>
+</div>
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<div id="greenmarket" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('greenmarket');"></i>
+  </div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/Screenshot_20241101_094258_Adobe%20Acrobat.jpg?v=1730468615264">
+    <figcaption>
+            <b>Greenmarket Salad</b><span class="price">28</span><br>
+            Summer Vegetables, Sesame Miso Dressing<br>
+            <span style="font-style:italic">with Tofu & Chili Oil<span class="price">37</span></span><br>
+            <span style="font-style:italic">with Warm Mushrooms<span class="price">39</span></span><br>
+            <br>
+            Gem Lettuce<br>
+            Cherry Tomato<br>
+            Baby Corn<br>
+            Radish<br>
+            Wakame<br>
+            Shallot Chips<br>
+    </figcaption>
+  </figure>
+  </div>
+
+  
+  
+  
+    
+<div id="ontama" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('ontama');"></i></div>
+  <figure>
+    <img src="https://cdn.glitch.global/ad7b0b12-cf30-4b44-8831-a7b954ddab06/caesar.jpg?v=1718245634002">
+    <figcaption>
+        <b>Nama Caesar Salad</b>
+        <span class="price">23</span><br>
+        Yuzu Sesame, Onsen Tammago,<br>
+        Katsuo Bushi, Aonori<br>
+        <span style="font-style:italic">
+        with Hokkaido "Unibushi" 
+          <span class="price">43</span>
+        </span>  
+          <br><br>
+    </figcaption>
+  </figure>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
 </body>
 </html>
