@@ -276,10 +276,9 @@
 
       
         <div class="item" style="cursor:pointer;" onclick="openPic('yakimeshi');">
-            <b>Yakimeshi</b><span class="price">28</span><br>
+            <b>Yakimeshi</b> (V)<span class="price">28</span><br>
             Vegetable Mixed Rice<br>
             <span style="font-style:italic">
-              with Braised Pork<span class="price">40</span><br>
               with Onsen Tamago<span class="price">33</span>
             </span>
         </div>
@@ -287,36 +286,35 @@
 
         <div class="item" style="cursor:pointer;" onclick="openPic('unagi-gohan');">
             <b>Unagi Gohan</b><span class="price">55</span><br>
-            Charcoal Grilled Eel<br>
-            Teriyaki Sauce<br>
-            Over Rice<br>
-            Sansho Pepper on the side<br>
-            Wasabi<br>
-            Gari/Pickled Japanese Pink Ginger(sweet)          
+            Charcoal Grilled Eel          
         </div>      
 
+        <div class="item" style="cursor:pointer;" onclick="openPic('harakomeshi');">
+            <b>Harakomeshi</b><span class="price">65</span><br>
+            Trout, Ikura
+        </div>      
       
       
-        <div class="item" style="cursor:pointer;" onclick="openPic('zaru-soba');">
-            <b>Zaru Soba</b><span class="price">26</span><br>
-            Cold Soba Noodles, Yakumi, Karajiru dipping sauce,<br>
-            Yakumi = 'seasonings' / tokyo negi scallions, wasabi, nori<br>
+        <div class="item" style="cursor:pointer;" onclick="openPic('kake-soba');">
+            <b>Kake Soba</b><span class="price">26</span><br>
+            Hot Soba, Amajiru
             <span style="font-style:italic">
               with Tempura Moriawase<span class="price">39</span><br>
               with Vegetable Tempura<span class="price">35</span>
+              with Tsukimi (Ontama, Nori)<span class="price">31</span>
+              with Kamo (Duck)<span class="price">40</span>
             </span>
         </div>
 
       
         <div class="item" style="cursor:pointer;" onclick="openPic('a5-kamatama-udon');">
-            <b>3oz A5 Kobe Kamatama Udon</b><span class="price">78</span><br>
-            Ontama Egg, Mushrooms,<br>
-            Non-Soup Udon Noodles
+            <b>A5 Kobe Kamatama Udon</b><span class="price">84</span><br>
+            Ontama, Mushrooms, Non-Soup Udon Noodles
         </div>
 
         <div class="item" style="cursor:pointer;" onclick="openPic('a5-wagyu-yakishabu-gohan');">
-            <b>3oz A5 Kobe Yakishabu Gohan</b><span class="price">78</span><br>
-            Ontama Egg, Takana(pickled mustard greens)
+            <b>A5 Kobe Yakishabu Gohan</b><span class="price">84</span><br>
+            Ontama, Takana
         </div>
 
 
@@ -806,22 +804,23 @@
   </figure>
 </div>
 
-<div id="zaru-soba" class="photo hidden">
+<div id="kake-soba" class="photo hidden">
   <div class="close">
     <i style="cursor:pointer;" 
        class="fa-solid fa-square-xmark x" 
-       onclick="closePic('zaru-soba');">
+       onclick="closePic('kake-soba');">
     </i>
   </div>
   <figure>
-    <img src="/images/zaru-soba.jpg">
+    <img src="/images/kake-soba.jpg">
     <figcaption>
-<b>Zaru Soba</b><span class="price">26</span><br>
-            Cold Soba Noodles, Yakumi, Karajiru dipping sauce,<br>
-            Yakumi = 'seasonings' / tokyo negi scallions, wasabi, nori<br>
+<b>Kake Soba</b><span class="price">26</span><br>
+            Hot Soba, Amajiru<br>
             <span style="font-style:italic">
               with Tempura Moriawase<span class="price">39</span><br>
               with Vegetable Tempura<span class="price">35</span>
+              with Tsukimi (Ontama, Nori)<span class="price">31</span>
+              with Kamo (Duck)<span class="price">40</span>
             </span>    </figcaption>
   </figure>
 </div>
@@ -960,6 +959,20 @@
   </figure>
 </div>
 
+<div id="harakomeshi" class="photo hidden">
+  <div class="close">
+  <i style="cursor:pointer;" 
+     class="fa-solid fa-square-xmark x" 
+     onclick="closePic('harakomeshi');"></i></div>
+  <figure>
+  <img src="/images/harakomeshi.jpg">
+    <figcaption>
+      <b>Harakomeshi</b>
+      <span class="price">65</span><br>
+      Trout, Ikura
+    </figcaption>
+  </figure>
+</div>
   
   
 </body>
