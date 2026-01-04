@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/21ef82ed30.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+    let picOpen = false;
+    function openPic(menuItem){
+        if (picOpen == false){
+            document.getElementById(menuItem).classList.remove('hidden');
+            // window.scrollTo(0,0);
+            picOpen = true;}
+    };
+    function closePic(menuItem){
+        document.getElementById(menuItem).classList.add('hidden');
+        picOpen = false;
+    };
+</script>
+
+<body>
+<div id="page">
+    <img id="logo" src="/images/logo.jpg" style="text-align:center;">
+    <ul id="nav">
+        <a href="#"><li id="current-page">Starters</li></a>
+        <a href="mains.html"><li>Mains</li></a>
+        <a href="sushi.html"><li>Sushi</li></a>
+        <a href="desserts.html"><li>Desserts</li></a>
+    </ul>
+    <ul id="nav2">
+        <a href="wine.html"><li>Wine</li></a>
+        <a href="beer.html"><li>Beer</li></a>
+        <a href="cocktails.html"><li>Cocktails</li></a>
+        <a href="mocktails.html"><li>Zero Proof</li></a>
+    </ul>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<div id="soup" class="section">
+
+
+    <div class="left">New Menu Items</div>
+
+    <div class="right">
+
+
+
+
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('shiro-miso-soup');">
+            <b>Shiro Miso Soup</b><span class="price">18</span><br>
+            Traditional New Year's Soup, Saikyo Miso, Sato Imo (Japanese Yam), Happo Dashi, 
+            Grilled Mochi, Bok Choy, Karashi (Japanese Mustard), Bonito Powder
+        </div>
+
+        
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('shime-saba');">
+            <b>Shime Saba 5pcs</b><span class="price">34</span><br>
+            Shime(vinegar cured) Saba(Mackerel)
+        </div>
+      
+
+
+        <div class="item" style="cursor:pointer;" onclick="openPic('buri-daikon');">
+            <b>Buri Daikon</b><span class="price">46</span><br>
+            Grilled marinated wild yellowtail, simmered daikon radish, broccoli rabe, 
+            bekko-an(thick, starchy sauce), fried ginger, yuzu peel
+        </div>
+      
+
+
+
+
+
+
+
+    </div><!--right-->
+</div><!--soup-->  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+</div><!--page-->
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<div id="shiro-miso-soup" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('shiro-miso-soup');"></i></div>
+  <figure>
+    <img src="/images/shiro-miso-soup.jpg">
+    <figcaption>
+        <b>Shiro Miso Soup</b><span class="price">18</span><br>
+            Traditional New Year's Soup, Saikyo Miso, Sato Imo (Japanese Yam), Happo Dashi, 
+            Grilled Mochi, Bok Choy, Karashi (Japanese Mustard), Bonito Powder
+    </figcaption></figure>
+</div>
+
+
+
+<div id="shime-saba" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('shime-saba');"></i></div>
+  <figure>
+    <img src="/images/shime-saba.jpg">
+    <figcaption>
+        <b>Shime Saba 5pcs</b><span class="price">34</span><br>
+            Shime(vinegar cured) Saba(Mackerel)
+    </figcaption></figure>
+</div>
+
+
+<div id="buri-daikon" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('buri-daikon');"></i></div>
+  <figure>
+    <img src="/images/buri-daikon.jpg">
+    <figcaption>
+        <b>Buri Daikon</b><span class="price">46</span><br>
+        Grilled marinated wild yellowtail, simmered daikon radish, broccoli rabe, 
+            bekko-an(thick, starchy sauce), fried ginger, yuzu peel    
+    </figcaption></figure>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
