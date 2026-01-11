@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama Quiz</title>
+    <style>
+        .page{
+            border:1px solid red;
+            width:100%;
+            min-height:100vh;
+            min-height:100svh;
+            display:grid;
+            place-content: center;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        const qna = [
+            {
+                q:'describe miso soup',
+                a:`katsuo dashi
+                    miso
+                    tofu
+                    wakame seaweed
+                    chives
+                    sansho pepper`,
+                pic:'miso-soup.jpg'
+            }
+        ]
+        const currentQ = 0;
+    </script>
+</body>
+    <div id="q" class="page">
+        <div>
+            <script>
+                document.write(`${qna[0].q}`)
+            </script>
+        </div>
+    </div>
+    <div id="pic" class="page">
+        <div>
+            <script>
+                document.write(`<img src='images/${qna[0].pic}'>`)
+            </script>
+        </div>        
+    </div>
+    <div id="a" class="page">
+        <div>
+            <script>
+                document.write(`${qna[0].a}`)
+            </script>
+        </div>        
+    </div>
+</html>
