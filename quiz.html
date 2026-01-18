@@ -19,10 +19,15 @@
             max-height:100svh;
         }
     </style>
+    <script>
+        function scrollToTop(){
+            
+
+        }
+    </script>
 </head>
 <body>
     <script>
-        window.scrollTo(0,0)
         const qna = [
             {
                 q:'describe miso soup',
@@ -58,26 +63,35 @@
         ]
         const currentQ = Math.floor(Math.random() * qna.length);
     </script>
-</body>
     <div id="q" class="page">
         <div>
             <script>
                 document.write(`${qna[currentQ].q}`)
-            </script>
+                </script>
         </div>
     </div>
     <div id="pic" class="page">
         <div>
             <script>
                 document.write(`<img src='images/${qna[currentQ].pic}'>`)
-            </script>
+                </script>
         </div>        
     </div>
     <div id="a" class="page">
         <div>
             <script>
                 document.write(`${qna[currentQ].a}`)
-            </script>
+                </script>
         </div>        
     </div>
+
+
+
+    <script>
+        window.onload = function(){
+            setTimeout(()=>window.scrollTo(0,0),0)
+        } 
+    </script>
+
+</body>
 </html>
