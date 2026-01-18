@@ -32,29 +32,35 @@
                     chives<br>
                     sansho pepper`,
                 pic:'miso-soup.jpg'
+            },
+            {
+                q:'describe Shime Saba',
+                a:` Shime(vinegar cured)<br>
+                    Saba(Mackerel)`,
+                pic:'shime-saba.jpg'
             }
         ]
-        const currentQ = 0;
+        const currentQ = 1;
     </script>
 </body>
     <div id="q" class="page">
         <div>
             <script>
-                document.write(`${qna[0].q}`)
+                document.write(`${qna[currentQ].q}`)
             </script>
         </div>
     </div>
     <div id="pic" class="page">
         <div>
             <script>
-                document.write(`<img src='images/${qna[0].pic}'>`)
+                document.write(`<img src='images/${qna[currentQ].pic}'>`)
             </script>
         </div>        
     </div>
     <div id="a" class="page">
         <div>
             <script>
-                document.write(`${qna[0].a}`)
+                document.write(`${qna[currentQ].a}`)
             </script>
         </div>        
     </div>
