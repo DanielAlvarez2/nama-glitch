@@ -20,9 +20,8 @@
         }
     </style>
     <script>
-        function scrollToTop(){
-            
-
+        function next(){
+            window.location.reload()
         }
     </script>
 </head>
@@ -83,6 +82,20 @@
                 document.write(`${qna[currentQ].a}`)
                 </script>
         </div>        
+    </div>
+
+    <div style="text-align: center;">
+        <button style=" background:grey;
+                        color:white;
+                        padding:10px 15px;
+                        border-radius:10px;
+                        font-size:25px;
+                        margin:0 auto;
+                        cursor:pointer;"
+                onclick="next()"
+                        >
+            Next
+        </button>
     </div>
 
 
