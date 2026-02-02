@@ -68,6 +68,28 @@ body{
     display:flex;
     margin-bottom: 50px;
 }
+.sake-section{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.sake-left, .sake-right{
+    padding-left:  2vw;
+}
+.sake-name{
+    width:600px;
+    display: inline-block;
+    /* border:1px solid red; */
+}
+.sake-size{
+    display: inline-block;
+    width: 6ch;
+}
+.sake-price{
+    display: inline-block;
+    width: 6ch;
+    text-align: right;
+}
 .left{
     width:33vw;
     padding-left: 2vw;
