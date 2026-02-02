@@ -154,3 +154,9 @@ figure .price{
         font-family:futura light, sans-serif;
         font-weight:100;
       }
+
+      @media (width < 830px){
+        .sake-name{
+            width:60vw;
+        }
+      }
