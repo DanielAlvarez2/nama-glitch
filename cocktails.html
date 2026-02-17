@@ -130,7 +130,7 @@
             Juniper, Orange, Gentian
         </div>
 
-        <div class="item" >
+        <div class="item" onclick="openPic('straw-hat')">
             <b>Straw Hat</b><span class="price">14</span><br>
             Houjicha, Thai Coconut, Lime
         </div>
@@ -385,6 +385,21 @@
     <figcaption>
             <b>Pepper Buck</b><span class="price">14</span><br>
             Lime, Spiced Ginger, Jalapeño
+    </figcaption>
+  </figure>
+</div>
+
+<div id="straw-hat" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('straw-hat');"></i>
+  </div>
+  <figure>
+    <img src="/images/straw-hat.jpg">
+    <figcaption>
+            <b>Straw Hat</b><span class="price">14</span><br>
+            Houjicha, Thai Coconut, Lime
     </figcaption>
   </figure>
 </div>
