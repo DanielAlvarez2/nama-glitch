@@ -602,15 +602,15 @@
         </div>
 
         <div class="item">
-            <span class="sake-bin">4002</span>
-            <span class="sake-name">Niizawa, Reikyo "Absolute 0", Junmai Daiginjo, Miyagi</span>
-            <span class="sake-size">500ml</span>
-            <span class="sake-price">10,000</span><br>           
+            <span class="sake-bin" style="text-decoration: line-through;">4002</span>
+            <span class="sake-name" style="text-decoration: line-through;">Niizawa, Reikyo "Absolute 0", Junmai Daiginjo, Miyagi</span>
+            <span class="sake-size" style="text-decoration: line-through;">500ml</span>
+            <span class="sake-price" style="text-decoration: line-through;">10,000</span><br>           
         </div>
 
-        <div class="item">
+        <div class="item" onclick="openPic('bin4001')" style="cursor:pointer">
             <span class="sake-bin">4001</span>
-            <span class="sake-name">Niizawa, "Zankyo Super 7", Junmai Daiginjo, Miyagi</span>
+            <span class="sake-name">Niizawa, "Zankyo Super 7", Junmai Daiginjo, Miyagi, 16%abv</span>
             <span class="sake-size">720ml</span>
             <span class="sake-price">4,195</span><br>           
         </div>
@@ -1993,6 +1993,29 @@
         Fukushima<br>
         720ml<br>
         $1,375<br>
+        16%abv
+    </figcaption>
+  </figure>
+</div>
+
+<div id="bin4001" class="photo hidden">
+  <div class="close">
+    <i style="cursor:pointer;" 
+       class="fa-solid fa-square-xmark x" 
+       onclick="closePic('bin4001');"></i>
+  </div>
+  <figure>
+    <img src="/images/bin4001.jpg">
+    <figcaption>
+        Sake<br>
+        Specialty<br>    
+        #4001<br>
+        Niizawa<br>
+        "Zankyo Super 7"<br>
+        Junmai Daiginjo<br>
+        Miyagi<br>
+        720ml<br>
+        $4,195<br>
         16%abv
     </figcaption>
   </figure>
